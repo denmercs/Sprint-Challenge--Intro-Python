@@ -1,5 +1,4 @@
 # To the GroundVehicle class, add method drive() that returns "vroooom".
-#
 # Also change it so the num_wheels defaults to 4 if not specified when the
 # object is constructed.
 
@@ -24,10 +23,10 @@ class GroundVehicle():
 
 class Motorcycle(GroundVehicle):
     def __init__(self):
-        super().__init__(num_wheels=2)
+        super().__init__(2)
 
     def drive(self):
-        return "BRAAAAP!!"
+        return 'BRAAAP!!'
 
 
 vehicles = [
